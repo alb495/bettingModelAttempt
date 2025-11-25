@@ -1,0 +1,39 @@
+cfb-spread-model/
+│
+├── data/
+│   ├── raw/
+│   │   ├── pbp_2021.csv
+│   │   ├── pbp_2022.csv
+│   │   ├── pbp_2023.csv
+│   │   ├── games_2021.csv
+│   │   ├── games_2022.csv
+│   │   ├── games_2023.csv
+│   │   ├── recruiting.csv
+│   │   └── teams.csv
+│   │
+│   └── processed/
+│       ├── team_week.csv
+│       ├── features.csv
+│       ├── matchups.csv
+│       └── power_ratings.csv
+│
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── load.py
+│   ├── features.py
+│   ├── matchups.py
+│   ├── models.py
+│   ├── evaluate.py
+│   ├── predict.py
+│   └── utils.py
+│
+├── notebooks/
+│   └── 01_model.ipynb
+│
+├── models/
+│   ├── ridge.pkl
+│   └── xgb.json
+│
+├── README.md
+└── requirements.txt
